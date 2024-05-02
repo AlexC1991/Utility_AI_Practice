@@ -196,6 +196,7 @@ MonoBehaviour:
       - rid: 5483864406302392346
       - rid: 5483864406302392347
       - rid: 5483864406302392348
+      - rid: 7483985368818384896
     m_RuntimeSettings:
       m_List: []
   renderingLayerNames:
@@ -826,3 +827,8 @@ MonoBehaviour:
         m_version: 0
         m_EnableCompilationCaching: 1
         m_EnableValidityChecks: 1
+    - rid: 7483985368818384896
+      type: {class: RenderGraphUtilsResources, ns: UnityEngine.Rendering.RenderGraphModule.Util, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 0
+        m_CoreCopyPS: {fileID: 4800000, guid: 12dc59547ea167a4ab435097dd0f9add, type: 3}

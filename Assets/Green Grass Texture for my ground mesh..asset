@@ -1,0 +1,595 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31a6b9796d1c0440eba061ace5e9dff6, type: 3}
+  m_Name: Green Grass Texture for my ground mesh.
+  m_EditorClassIdentifier: 
+  assetsData:
+  - rid: 7483985368818385096
+  - rid: 7483985368818385102
+  - rid: 7483985368818385108
+  - rid: 7483985368818385114
+  - rid: 7483985368818385120
+  - rid: 7483985368818385126
+  - rid: 7483985368818385132
+  currentMode: TextToImage
+  m_Data:
+  - rid: 7483985368818385087
+  - rid: 7483985368818385088
+  - rid: 7483985368818385089
+  - rid: 7483985368818385090
+  preRefinedArtifact:
+    rid: -2
+  refinedArtifact:
+    rid: -2
+  selectedArtifact:
+    rid: 7483985368818385132
+  m_Operators:
+  - rid: 7483985368818385091
+  - rid: 7483985368818385092
+  - rid: 7483985368818385093
+  - rid: 7483985368818385094
+  - rid: 7483985368818385095
+  m_PreRefineOperators: []
+  m_ExportedArtifacts:
+  - m_UnityGuid: 33993ce1f06b5704eac6370d9d71f1eb
+    m_MuseGuid: b79323ee-191e-444b-b9da-c305cdf2b610
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 7483985368818385087
+      type: {class: FeedbackManager, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_Liked:
+          m_Values: []
+        m_Disliked:
+          m_Values: []
+    - rid: 7483985368818385088
+      type: {class: MainUI/UISize, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_NodeListWidth: 300
+        m_NodeListRefineWidth: 300
+        m_AssetListRefineWidth: 200
+    - rid: 7483985368818385089
+      type: {class: GenerateButtonData, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data: 
+    - rid: 7483985368818385090
+      type: {class: BookmarkManager, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_BookmarkedArtifacts:
+          m_Values: []
+        m_IsFilterEnabled: 0
+    - rid: 7483985368818385091
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToImage
+          - 6
+          enabled: 1
+          assembly: 
+    - rid: 7483985368818385092
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - Green Grass Texture for my ground mesh.
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 7483985368818385093
+      type: {class: LoraOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: LoraOperator
+          version: 0.0.1
+          settings:
+          - guid1
+          enabled: 0
+          assembly: 
+    - rid: 7483985368818385094
+      type: {class: ReferenceOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: ReferenceOperator
+          version: 0.0.2
+          settings:
+          - 
+          - 
+          - 0
+          - 20
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 7483985368818385095
+      type: {class: MaskOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: MaskOperator
+          version: 0.0.1
+          settings:
+          - 
+          - True
+          - 1
+          enabled: 0
+          assembly: 
+    - rid: 7483985368818385096
+      type: {class: ImageArtifact, ns: Unity.Muse.Texture, asm: Unity.Muse.Texture}
+      data:
+        Guid: fe4aad80-e88a-4d2d-a2b3-b45290b0b7e0
+        Seed: 3624331374
+        m_Operators:
+        - rid: 7483985368818385097
+        - rid: 7483985368818385098
+        - rid: 7483985368818385099
+        - rid: 7483985368818385100
+        - rid: 7483985368818385101
+        history:
+        - rid: 7483985368818385096
+        IsPbrMode: 0
+    - rid: 7483985368818385097
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToImage
+          - 6
+          enabled: 1
+          assembly: 
+    - rid: 7483985368818385098
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - Green Grass Texture for my ground mesh.
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 7483985368818385099
+      type: {class: LoraOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: LoraOperator
+          version: 0.0.1
+          settings:
+          - guid1
+          enabled: 0
+          assembly: 
+    - rid: 7483985368818385100
+      type: {class: ReferenceOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: ReferenceOperator
+          version: 0.0.2
+          settings:
+          - 
+          - 
+          - 0
+          - 20
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 7483985368818385101
+      type: {class: MaskOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: MaskOperator
+          version: 0.0.1
+          settings:
+          - 
+          - True
+          - 1
+          enabled: 0
+          assembly: 
+    - rid: 7483985368818385102
+      type: {class: ImageArtifact, ns: Unity.Muse.Texture, asm: Unity.Muse.Texture}
+      data:
+        Guid: ba1e68d2-bb32-45e1-93d4-ff04c7cea0a5
+        Seed: 2840450853
+        m_Operators:
+        - rid: 7483985368818385103
+        - rid: 7483985368818385104
+        - rid: 7483985368818385105
+        - rid: 7483985368818385106
+        - rid: 7483985368818385107
+        history:
+        - rid: 7483985368818385102
+        IsPbrMode: 0
+    - rid: 7483985368818385103
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToImage
+          - 6
+          enabled: 1
+          assembly: 
+    - rid: 7483985368818385104
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - Green Grass Texture for my ground mesh.
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 7483985368818385105
+      type: {class: LoraOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: LoraOperator
+          version: 0.0.1
+          settings:
+          - guid1
+          enabled: 0
+          assembly: 
+    - rid: 7483985368818385106
+      type: {class: ReferenceOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: ReferenceOperator
+          version: 0.0.2
+          settings:
+          - 
+          - 
+          - 0
+          - 20
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 7483985368818385107
+      type: {class: MaskOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: MaskOperator
+          version: 0.0.1
+          settings:
+          - 
+          - True
+          - 1
+          enabled: 0
+          assembly: 
+    - rid: 7483985368818385108
+      type: {class: ImageArtifact, ns: Unity.Muse.Texture, asm: Unity.Muse.Texture}
+      data:
+        Guid: b81456fa-ad7f-49c4-9fb3-448618d842ef
+        Seed: 1846787060
+        m_Operators:
+        - rid: 7483985368818385109
+        - rid: 7483985368818385110
+        - rid: 7483985368818385111
+        - rid: 7483985368818385112
+        - rid: 7483985368818385113
+        history:
+        - rid: 7483985368818385108
+        IsPbrMode: 0
+    - rid: 7483985368818385109
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToImage
+          - 6
+          enabled: 1
+          assembly: 
+    - rid: 7483985368818385110
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - Green Grass Texture for my ground mesh.
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 7483985368818385111
+      type: {class: LoraOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: LoraOperator
+          version: 0.0.1
+          settings:
+          - guid1
+          enabled: 0
+          assembly: 
+    - rid: 7483985368818385112
+      type: {class: ReferenceOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: ReferenceOperator
+          version: 0.0.2
+          settings:
+          - 
+          - 
+          - 0
+          - 20
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 7483985368818385113
+      type: {class: MaskOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: MaskOperator
+          version: 0.0.1
+          settings:
+          - 
+          - True
+          - 1
+          enabled: 0
+          assembly: 
+    - rid: 7483985368818385114
+      type: {class: ImageArtifact, ns: Unity.Muse.Texture, asm: Unity.Muse.Texture}
+      data:
+        Guid: 06c8b87b-1b96-484f-9a8f-39104cb11781
+        Seed: 992262070
+        m_Operators:
+        - rid: 7483985368818385115
+        - rid: 7483985368818385116
+        - rid: 7483985368818385117
+        - rid: 7483985368818385118
+        - rid: 7483985368818385119
+        history:
+        - rid: 7483985368818385114
+        IsPbrMode: 0
+    - rid: 7483985368818385115
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToImage
+          - 6
+          enabled: 1
+          assembly: 
+    - rid: 7483985368818385116
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - Green Grass Texture for my ground mesh.
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 7483985368818385117
+      type: {class: LoraOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: LoraOperator
+          version: 0.0.1
+          settings:
+          - guid1
+          enabled: 0
+          assembly: 
+    - rid: 7483985368818385118
+      type: {class: ReferenceOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: ReferenceOperator
+          version: 0.0.2
+          settings:
+          - 
+          - 
+          - 0
+          - 20
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 7483985368818385119
+      type: {class: MaskOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: MaskOperator
+          version: 0.0.1
+          settings:
+          - 
+          - True
+          - 1
+          enabled: 0
+          assembly: 
+    - rid: 7483985368818385120
+      type: {class: ImageArtifact, ns: Unity.Muse.Texture, asm: Unity.Muse.Texture}
+      data:
+        Guid: 39957519-d9ec-4bab-a5c1-7a3614e2e4b5
+        Seed: 3901793870
+        m_Operators:
+        - rid: 7483985368818385121
+        - rid: 7483985368818385122
+        - rid: 7483985368818385123
+        - rid: 7483985368818385124
+        - rid: 7483985368818385125
+        history:
+        - rid: 7483985368818385120
+        IsPbrMode: 0
+    - rid: 7483985368818385121
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToImage
+          - 6
+          enabled: 1
+          assembly: 
+    - rid: 7483985368818385122
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - Green Grass Texture for my ground mesh.
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 7483985368818385123
+      type: {class: LoraOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: LoraOperator
+          version: 0.0.1
+          settings:
+          - guid1
+          enabled: 0
+          assembly: 
+    - rid: 7483985368818385124
+      type: {class: ReferenceOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: ReferenceOperator
+          version: 0.0.2
+          settings:
+          - 
+          - 
+          - 0
+          - 20
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 7483985368818385125
+      type: {class: MaskOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: MaskOperator
+          version: 0.0.1
+          settings:
+          - 
+          - True
+          - 1
+          enabled: 0
+          assembly: 
+    - rid: 7483985368818385126
+      type: {class: ImageArtifact, ns: Unity.Muse.Texture, asm: Unity.Muse.Texture}
+      data:
+        Guid: 5817acf8-0e62-4260-b4ab-210e0d0f13e4
+        Seed: 437765227
+        m_Operators:
+        - rid: 7483985368818385127
+        - rid: 7483985368818385128
+        - rid: 7483985368818385129
+        - rid: 7483985368818385130
+        - rid: 7483985368818385131
+        history:
+        - rid: 7483985368818385126
+        IsPbrMode: 0
+    - rid: 7483985368818385127
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToImage
+          - 6
+          enabled: 1
+          assembly: 
+    - rid: 7483985368818385128
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - Green Grass Texture for my ground mesh.
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 7483985368818385129
+      type: {class: LoraOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: LoraOperator
+          version: 0.0.1
+          settings:
+          - guid1
+          enabled: 0
+          assembly: 
+    - rid: 7483985368818385130
+      type: {class: ReferenceOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: ReferenceOperator
+          version: 0.0.2
+          settings:
+          - 
+          - 
+          - 0
+          - 20
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 7483985368818385131
+      type: {class: MaskOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: MaskOperator
+          version: 0.0.1
+          settings:
+          - 
+          - True
+          - 1
+          enabled: 0
+          assembly: 
+    - rid: 7483985368818385132
+      type: {class: ImageArtifact, ns: Unity.Muse.Texture, asm: Unity.Muse.Texture}
+      data:
+        Guid: b79323ee-191e-444b-b9da-c305cdf2b610
+        Seed: 0
+        m_Operators:
+        - rid: 7483985368818385133
+        - rid: 7483985368818385134
+        history:
+        - rid: 7483985368818385132
+        IsPbrMode: 0
+    - rid: 7483985368818385133
+      type: {class: UpscaleOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: UpscaleOperator
+          version: 0.0.1
+          settings:
+          - ba1e68d2-bb32-45e1-93d4-ff04c7cea0a5
+          - '{"operators":[{"type":"GenerateOperator","version":"0.0.1","settings":["TextToImage","6"],"enabled":true,"assembly":""},{"type":"PromptOperator","version":"0.0.2","settings":["Green
+            Grass Texture for my ground mesh.",""],"enabled":true,"assembly":""},{"type":"LoraOperator","version":"0.0.1","settings":["guid1"],"enabled":false,"assembly":""},{"type":"ReferenceOperator","version":"0.0.2","settings":["","","0","20",""],"enabled":true,"assembly":""},{"type":"MaskOperator","version":"0.0.1","settings":["","True","1"],"enabled":false,"assembly":""}]}'
+          enabled: 1
+          assembly: 
+    - rid: 7483985368818385134
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - Green Grass Texture for my ground mesh.
+          - 
+          enabled: 0
+          assembly: 

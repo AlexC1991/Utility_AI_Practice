@@ -12,3 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 272041917cdc61444b6f27214f18fd24, type: 3}
   m_Name: PercentagesOfWants
   m_EditorClassIdentifier: 
+  needsWaterValue: 19.9506
+  needsToEatValue: 18.40921
+  needsToWalkValue: 70.10564
+  needsToGetHealth: 2
